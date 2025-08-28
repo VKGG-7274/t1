@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/top.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        video{
+            margin-top: 5px;
+        }
+        
+        .p1{
+            font-size: 24px;
+            margin: 0px;
+            text-align: center;
+        }
+        .p2{
+            font-size: 16px;
+            margin: 0px;
+            text-align: center;
+        }
+        .p3{
+            font-size: 16px;
+            margin: 0px;
+        }
+        a{
+            color: black;
+        }
+        a:hover{
+            color: black;
+            text-decoration: none;
+        }
+        #chushi>div{
+            border: 3px solid gainsboro;
+        }
+        #chushi>div:hover{
+            border: 3px solid red;
+        }
+        #chushi>div{
+            margin: 0px;
+            padding: 2px;
+        }
+        .meishi1-1>center>img{
+            margin-bottom: 20px;
+            width: 96%;
+        }
+        .meishi1>center>img{
+            width: 93%;
+            margin-bottom: 20px;
+        }
+        #meishi{
+            margin-top: 30px;
+            background-color: whitesmoke;
+        }
+        #meishi>div{
+            padding: 0px;
+        }
+        .imgtext{
+            position: absolute;
+            left: 10px;
+            right: 11px;
+            top: 181px;
+            color: white;
+            background-image: url(image/imgtext2.png);
+            display: none;
+        }
+        #meishi>div:hover div{
+        display: block;
+        }   
+    </style>
+</head>
+<body>
+    <div style="width: 100%; height: 50px; background-color: rgb(189, 11, 11); " class="fixed-top"></div>
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="row navbar navbar-expand-lg  navbar-light fixed-top" id="row">
+            <div class="col-lg-3 bavber-brand">
+                <img src="image/logo1.jpg" class="img-fluid" id="logo">
+            </div>
+            <button class="navbar-toggler" data-target="#my" data-toggle="collapse" style="margin-bottom: 20px;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-lg-6 collapse navbar-collapse" id="my">
+                <nav class="nav nav-pills navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active" id="a">首页</a>
+                    <a href="main display.html" class="nav-item nav-link" id="a">打卡展示</a>
+                    <a href="other display.html" class="nav-item nav-link" id="a">视觉盛宴</a>
+                    <a href="festivals_food.html" class="nav-item nav-link" id="a">节日饮食</a>
+                    <a href="good_food.html" class="nav-item nav-link" id="a">健康美食</a>
+                    <a href="msglyzs2.html" class="nav-item nav-link" id="a">美食天下</a>
+                </nav>
+            </div>
+            <div class="col-lg-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="请输入关键字">
+                        <div class="input-group-append">
+                            <button class="btn btn-danger">搜索</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 内容 -->
+<div style="background-color: whitesmoke;">
+    <div class="container" style="margin-top: 182px;">
+        <div>
+            <img src="image/dt.gif" style="width: 150%;margin-left: -25%;">
+        </div>
+        <h1 style="text-align: center;margin-top: 50px;">美食堂</h1>
+
+        <div class="row" id="meishi">
+            <div class="col-xl-6 col-lg-12 meishi1-1">
+                <center><img src="image/ms5.png" alt="红烧牛头方"></center>
+                <div class="imgtext">
+                    <p class="p1">
+                        红烧牛头方
+                    </p>
+                    <p class="p3">
+                        四川地区一道传统特色阿达阿达是的啊实打实大名菜，色泽红润，软糯适口，浓鲜醇厚。
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 meishi1">
+                <center><img src="image/ms6.png" alt="龙舟孜然羔羊排" ></center>
+                <div class="imgtext">
+                    <p class="p1">
+                        龙舟孜然羔羊排
+                    </p>
+                    <p class="p3">
+                        先卤后炸，突破传统的红烧羊肉技法，更符合现代年轻人的口味。
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 meishi1">
+                <center><img src="image/ms7.png" alt="浙西腐皮葱花肉" ></center>
+                <div class="imgtext">
+                    <p class="p1">
+                        浙西腐皮葱花肉
+                    </p>
+                    <p class="p3">
+                        以豆腐皮、猪肉馅为主料,色泽金黄、外脆里嫩、鲜香可口。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row" id="meishi">
+            <div class="col-xl-3 col-lg-6 meishi1">
+                <center><img src="image/ms1.png" alt="红烧牛头方"></center>
+                <div class="imgtext">
+                    <p class="p1">
+                        红烧牛头方
+                    </p>
+                    <p class="p3">
+                        四川地区一道传统特色名菜，色泽红润，软糯适口，浓鲜醇厚。
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 meishi1">
+                <center><img src="image/ms2.png" alt="龙舟孜然羔羊排" ></center>
+                <div class="imgtext">
+                    <p class="p1">
+                        龙舟孜然羔羊排
+                    </p>
+                    <p class="p3">
+                        先卤后炸，突破传统的红烧羊肉技法，更符合现代年轻人的口味。
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 meishi1">
+                <center><img src="image/ms3.png" alt="浙西腐皮葱花肉" ></center>
+                <div class="imgtext">
+                    <p class="p1">
+                        浙西腐皮葱花肉
+                    </p>
+                    <p class="p3">
+                        以豆腐皮、猪肉馅为主料,色泽金黄、外脆里嫩、鲜香可口。
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 meishi1">
+                <center><img src="image/ms4.png" alt="鲳鱼烧年糕" ></center>
+                <div class="imgtext">
+                    <p class="p1">
+                        鲳鱼烧年糕
+                    </p>
+                    <p class="p3">
+                        以鲳鱼、年糕为主料,色泽红润，鱼肉鲜嫩，糕花软糯。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <h1 style="text-align: center; margin-top: 50px;">烹饪大师名人堂</h1>
+        <div class="row" id="chushi" style="background-color: whitesmoke;">
+            <div class="col-xl-3 col-lg-6">
+                <a href="chef.html">
+                    <center><img src="image/cs1.jpg" alt="王少刚" class="img-fluid"></center>
+                    <p class="p1">
+                        王少刚
+                    </p>
+                    <p class="p2">
+                        中国烹饪大师
+                    </p>
+                </a>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+                <a href="chef.html">
+                    <center><img src="image/cs2.jpg" alt="崔义振" class="img-fluid"></center>
+                    <p class="p1">
+                        崔义振
+                    </p>
+                    <p class="p2">
+                        韩餐教师
+                    </p>
+                </a>
+            </div><div class="col-xl-3 col-lg-6">
+                <a href="chef.html">
+                    <center><img src="image/cs3.jpg" alt="房志伟" class="img-fluid"></center>
+                    <p class="p1">
+                        房志伟
+                    </p>
+                    <p class="p2">
+                        西餐教师
+                    </p>
+                </a>
+            </div><div class="col-xl-3 col-lg-6">
+                <a href="chef.html">
+                    <center><img src="image/cs4.jpg" alt="谭学文" class="img-fluid"></center>
+                    <p class="p1">
+                        谭学文
+                    </p>
+                    <p class="p2">
+                        世界名厨
+                    </p>
+                </a>
+            </div>
+        </div>
+        <h1 style="text-align: center; margin-top: 50px;">美食视觉堂</h1>
+        <div class="row" id="shipin" style="background-color: whitesmoke;">
+            <div class="col-xl-3 col-lg-6" style="background-color: white;">
+                <video src="video/v01.mp4" controls style="width: 100%;"></video>
+                <b>
+                    <center>黄金小酥肉</center>
+                </b>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一道特色传统名菜，香酥、嫩滑、爽口，一碗酥肉出锅时，色泽鲜艳、酥而不烂、香气外溢。
+                </p>
+            </div>
+            <div class="col-xl-3 col-lg-6" style="background-color: white;">
+                <video src="video/v02.mp4" controls style="width: 100%;"></video>
+                <b>
+                    <center>草莓千层糕</center>
+                </b>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多层酥软夹香甜草莓果酱，看起来层次分明色彩缤纷，吃起来酥软香甜，是很受欢迎的甜点。
+                </p>
+            </div>
+            <div class="col-xl-3 col-lg-6" style="background-color: white;">
+                <video src="video/v03.mp4" controls style="width: 100%;"></video>
+                <b>
+                    <center>三文鱼腩加州卷</center>
+                </b>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新鲜三文鱼肉卷成圆柱形，外酥内嫩，搭配特制酱料，营养全面，是一道流行的小食。
+                </p>
+            </div>
+            <div class="col-xl-3 col-lg-6" style="background-color: white;">
+                <video src="video/v04.mp4" controls style="width: 100%;"></video>
+                <b>
+                    <center>淹水鸡</center>
+                </b>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;淹制入味，再放入蒸锅内慢火蒸熟，肉质嫩滑洁白，口感Q弹可口，是家常小菜中的老饭菜。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
